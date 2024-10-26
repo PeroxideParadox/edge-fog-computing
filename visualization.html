@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Latency Comparison</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h2>Latency Comparison: Fog vs Cloud</h2>
+    <canvas id="myChart" width="400" height="200"></canvas>
+    <script>
+        async function getData() {
+            const response = await fetch('data/results.csv');
+            const data = await response.text();
+            const rows = data.split('\n').slice(1);  // Skip header
+
+            const taskLabels = [];
+            const fogLatencies = [];
+            const cloudLatencies = [];
+
+            const taskFogMap = {};
+            const taskCloudMap = {};
+
+            rows.forEach(row => {
+                const columns = row.split(',');
+                if (columns.length > 4) {
+                    const taskLabel = columns[1].trim();
+                    const latency = parseFloat(columns[4]);
+                    const processingType = columns[5].trim();
+
+                    if (processingType === 'Fog') {
+                        taskFogMap[taskLabel] = latency;
+                    } else if (processingType === 'Cloud') {
+                        taskCloudMap[taskLabel] = latency;
+                    }
+                }
+            });
+
+            Object.keys(taskFogMap).forEach(task => {
+                taskLabels.push(task);
+                fogLatencies.push(taskFogMap[task]);
+                cloudLatencies.push(taskCloudMap[task]);
+            });
+
+            return { taskLabels, fogLatencies, cloudLatencies };
+        }
+
+        async function createChart() {
+            const data = await getData();
+
+            const ctx = document.getElementById('myChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: data.taskLabels,
+                    datasets: [
+                        {
+                            label: 'Fog Latency',
+                            data: data.fogLatencies,
+                            borderColor: 'rgba(75, 192, 192, 1)',
+                            backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                            fill: true
+                        },
+                        {
+                            label: 'Cloud Latency',
+                            data: data.cloudLatencies,
+                            borderColor: 'rgba(255, 99, 132, 1)',
+                            backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                            fill: true
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    scales: {
+                        x: {
+                            title: {
+                                display: true,
+                                text: 'Task'
+                            }
+                        },
+                        y: {
+                            title: {
+                                display: true,
+                                text: 'Latency (ms)'
+                            }
+                        }
+                    }
+                }
+            });
+        }
+
+        createChart();
+    </script>
+</body>
+</html>

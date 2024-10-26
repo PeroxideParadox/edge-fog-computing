@@ -1,20 +1,23 @@
 import pandas as pd
 import os
+from datetime import datetime
 
 latency_data = []
 
-def log_latency(task, created_time, completion_time, location):
-    latency = completion_time - created_time
+# Log latency for tasks processed by fog and cloud
+def log_latency(device, task_type, created_time, completion_time, location):
+    latency = (completion_time - created_time).total_seconds() * 1000  # Latency in ms
     latency_data.append({
-        'task': task,
+        'device': device,
+        'task_type': task_type,
         'created_time': created_time,
         'completion_time': completion_time,
-        'latency': latency,
+        'latency (ms)': latency,
         'location': location
     })
 
+# Save latency data to CSV file
 def save_latency_to_csv():
-    # Check if the 'data' directory exists, if not, create it
     if not os.path.exists('data'):
         os.makedirs('data')
     

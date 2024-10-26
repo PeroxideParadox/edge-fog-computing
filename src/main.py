@@ -1,8 +1,9 @@
 from tasks import create_environment, simulate
 from latency import save_latency_to_csv
+from analysis import analyze_results
 
 if __name__ == "__main__":
-    env = create_environment()
-    simulate(env)
+    devices = create_environment()
+    simulate(devices)
     save_latency_to_csv()
-    print("Simulation complete. Results saved to data/results.csv")
+    analyze_results()

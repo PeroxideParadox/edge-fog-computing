@@ -1,251 +1,101 @@
-task,created_time,completion_time,latency,location
-Device 0 (Cloud),5,12,7,Cloud
-Device 1 (Cloud),5,11,6,Cloud
-Device 2 (Cloud),5,9,4,Cloud
-Device 3 (Cloud),5,10,5,Cloud
-Device 4 (Cloud),5,11,6,Cloud
-Device 0 (Cloud),10,16,6,Cloud
-Device 1 (Fog),10,11,1,Fog
-Device 2 (Fog),10,13,3,Fog
-Device 3 (Fog),10,11,1,Fog
-Device 4 (Fog),10,12,2,Fog
-Device 0 (Cloud),15,18,3,Cloud
-Device 1 (Fog),15,18,3,Fog
-Device 2 (Cloud),15,18,3,Cloud
-Device 3 (Fog),15,18,3,Fog
-Device 4 (Cloud),15,18,3,Cloud
-Device 0 (Cloud),20,24,4,Cloud
-Device 1 (Cloud),20,27,7,Cloud
-Device 2 (Cloud),20,24,4,Cloud
-Device 3 (Fog),20,21,1,Fog
-Device 4 (Fog),20,21,1,Fog
-Device 0 (Cloud),25,28,3,Cloud
-Device 1 (Cloud),25,30,5,Cloud
-Device 2 (Cloud),25,31,6,Cloud
-Device 3 (Cloud),25,29,4,Cloud
-Device 4 (Fog),25,27,2,Fog
-Device 0 (Fog),30,31,1,Fog
-Device 1 (Fog),30,31,1,Fog
-Device 2 (Cloud),30,35,5,Cloud
-Device 3 (Fog),30,31,1,Fog
-Device 4 (Fog),30,31,1,Fog
-Device 0 (Fog),35,36,1,Fog
-Device 1 (Cloud),35,40,5,Cloud
-Device 2 (Fog),35,36,1,Fog
-Device 3 (Cloud),35,42,7,Cloud
-Device 4 (Fog),35,36,1,Fog
-Device 0 (Cloud),40,43,3,Cloud
-Device 1 (Cloud),40,45,5,Cloud
-Device 2 (Cloud),40,47,7,Cloud
-Device 3 (Cloud),40,44,4,Cloud
-Device 4 (Fog),40,43,3,Fog
-Device 0 (Fog),45,47,2,Fog
-Device 1 (Cloud),45,51,6,Cloud
-Device 2 (Cloud),45,52,7,Cloud
-Device 3 (Fog),45,46,1,Fog
-Device 4 (Fog),45,46,1,Fog
-Device 0 (Cloud),50,57,7,Cloud
-Device 1 (Fog),50,52,2,Fog
-Device 2 (Cloud),50,55,5,Cloud
-Device 3 (Fog),50,52,2,Fog
-Device 4 (Fog),50,53,3,Fog
-Device 0 (Cloud),55,58,3,Cloud
-Device 1 (Cloud),55,62,7,Cloud
-Device 2 (Fog),55,56,1,Fog
-Device 3 (Fog),55,58,3,Fog
-Device 4 (Fog),55,56,1,Fog
-Device 0 (Fog),60,61,1,Fog
-Device 1 (Cloud),60,64,4,Cloud
-Device 2 (Fog),60,63,3,Fog
-Device 3 (Fog),60,61,1,Fog
-Device 4 (Cloud),60,63,3,Cloud
-Device 0 (Cloud),65,71,6,Cloud
-Device 1 (Cloud),65,72,7,Cloud
-Device 2 (Fog),65,68,3,Fog
-Device 3 (Fog),65,67,2,Fog
-Device 4 (Cloud),65,70,5,Cloud
-Device 0 (Cloud),70,73,3,Cloud
-Device 1 (Fog),70,72,2,Fog
-Device 2 (Fog),70,72,2,Fog
-Device 3 (Fog),70,71,1,Fog
-Device 4 (Fog),70,72,2,Fog
-Device 0 (Cloud),75,81,6,Cloud
-Device 1 (Cloud),75,78,3,Cloud
-Device 2 (Fog),75,76,1,Fog
-Device 3 (Fog),75,78,3,Fog
-Device 4 (Cloud),75,81,6,Cloud
-Device 0 (Cloud),80,87,7,Cloud
-Device 1 (Fog),80,82,2,Fog
-Device 2 (Fog),80,81,1,Fog
-Device 3 (Cloud),80,84,4,Cloud
-Device 4 (Fog),80,81,1,Fog
-Device 0 (Fog),85,86,1,Fog
-Device 1 (Cloud),85,91,6,Cloud
-Device 2 (Fog),85,87,2,Fog
-Device 3 (Cloud),85,92,7,Cloud
-Device 4 (Cloud),85,92,7,Cloud
-Device 0 (Fog),90,92,2,Fog
-Device 1 (Fog),90,92,2,Fog
-Device 2 (Fog),90,91,1,Fog
-Device 3 (Cloud),90,94,4,Cloud
-Device 4 (Fog),90,91,1,Fog
-Device 0 (Cloud),95,99,4,Cloud
-Device 1 (Fog),95,98,3,Fog
-Device 2 (Fog),95,97,2,Fog
-Device 3 (Cloud),95,99,4,Cloud
-Device 4 (Cloud),95,102,7,Cloud
-Device 0 (Fog),100,103,3,Fog
-Device 1 (Cloud),100,104,4,Cloud
-Device 2 (Cloud),100,103,3,Cloud
-Device 3 (Cloud),100,105,5,Cloud
-Device 4 (Fog),100,102,2,Fog
-Device 0 (Fog),105,108,3,Fog
-Device 1 (Cloud),105,109,4,Cloud
-Device 2 (Cloud),105,108,3,Cloud
-Device 3 (Cloud),105,110,5,Cloud
-Device 4 (Fog),105,108,3,Fog
-Device 0 (Fog),110,111,1,Fog
-Device 1 (Cloud),110,116,6,Cloud
-Device 2 (Cloud),110,115,5,Cloud
-Device 3 (Fog),110,111,1,Fog
-Device 4 (Cloud),110,117,7,Cloud
-Device 0 (Fog),115,118,3,Fog
-Device 1 (Cloud),115,119,4,Cloud
-Device 2 (Cloud),115,120,5,Cloud
-Device 3 (Fog),115,118,3,Fog
-Device 4 (Cloud),115,118,3,Cloud
-Device 0 (Fog),120,122,2,Fog
-Device 1 (Fog),120,122,2,Fog
-Device 2 (Fog),120,123,3,Fog
-Device 3 (Cloud),120,125,5,Cloud
-Device 4 (Fog),120,123,3,Fog
-Device 0 (Fog),125,128,3,Fog
-Device 1 (Cloud),125,130,5,Cloud
-Device 2 (Fog),125,127,2,Fog
-Device 3 (Fog),125,128,3,Fog
-Device 4 (Fog),125,126,1,Fog
-Device 0 (Cloud),130,137,7,Cloud
-Device 1 (Cloud),130,135,5,Cloud
-Device 2 (Cloud),130,137,7,Cloud
-Device 3 (Cloud),130,134,4,Cloud
-Device 4 (Cloud),130,133,3,Cloud
-Device 0 (Fog),135,136,1,Fog
-Device 1 (Cloud),135,142,7,Cloud
-Device 2 (Cloud),135,141,6,Cloud
-Device 3 (Fog),135,138,3,Fog
-Device 4 (Fog),135,138,3,Fog
-Device 0 (Cloud),140,145,5,Cloud
-Device 1 (Fog),140,141,1,Fog
-Device 2 (Fog),140,142,2,Fog
-Device 3 (Cloud),140,146,6,Cloud
-Device 4 (Fog),140,141,1,Fog
-Device 0 (Fog),145,146,1,Fog
-Device 1 (Fog),145,147,2,Fog
-Device 2 (Fog),145,147,2,Fog
-Device 3 (Cloud),145,151,6,Cloud
-Device 4 (Cloud),145,151,6,Cloud
-Device 0 (Fog),150,152,2,Fog
-Device 1 (Cloud),150,153,3,Cloud
-Device 2 (Cloud),150,155,5,Cloud
-Device 3 (Cloud),150,154,4,Cloud
-Device 4 (Cloud),150,154,4,Cloud
-Device 0 (Fog),155,158,3,Fog
-Device 1 (Cloud),155,162,7,Cloud
-Device 2 (Fog),155,156,1,Fog
-Device 3 (Fog),155,158,3,Fog
-Device 4 (Cloud),155,159,4,Cloud
-Device 0 (Cloud),160,167,7,Cloud
-Device 1 (Fog),160,163,3,Fog
-Device 2 (Cloud),160,164,4,Cloud
-Device 3 (Fog),160,163,3,Fog
-Device 4 (Cloud),160,166,6,Cloud
-Device 0 (Cloud),165,169,4,Cloud
-Device 1 (Cloud),165,172,7,Cloud
-Device 2 (Fog),165,168,3,Fog
-Device 3 (Cloud),165,170,5,Cloud
-Device 4 (Cloud),165,171,6,Cloud
-Device 0 (Cloud),170,176,6,Cloud
-Device 1 (Cloud),170,177,7,Cloud
-Device 2 (Fog),170,172,2,Fog
-Device 3 (Cloud),170,175,5,Cloud
-Device 4 (Cloud),170,174,4,Cloud
-Device 0 (Cloud),175,181,6,Cloud
-Device 1 (Fog),175,177,2,Fog
-Device 2 (Fog),175,178,3,Fog
-Device 3 (Cloud),175,178,3,Cloud
-Device 4 (Cloud),175,179,4,Cloud
-Device 0 (Cloud),180,185,5,Cloud
-Device 1 (Cloud),180,183,3,Cloud
-Device 2 (Fog),180,182,2,Fog
-Device 3 (Fog),180,182,2,Fog
-Device 4 (Fog),180,181,1,Fog
-Device 0 (Fog),185,188,3,Fog
-Device 1 (Fog),185,187,2,Fog
-Device 2 (Cloud),185,188,3,Cloud
-Device 3 (Cloud),185,191,6,Cloud
-Device 4 (Cloud),185,190,5,Cloud
-Device 0 (Fog),190,191,1,Fog
-Device 1 (Fog),190,192,2,Fog
-Device 2 (Cloud),190,195,5,Cloud
-Device 3 (Cloud),190,193,3,Cloud
-Device 4 (Cloud),190,194,4,Cloud
-Device 0 (Fog),195,197,2,Fog
-Device 1 (Cloud),195,198,3,Cloud
-Device 2 (Fog),195,196,1,Fog
-Device 3 (Fog),195,198,3,Fog
-Device 4 (Cloud),195,200,5,Cloud
-Device 0 (Cloud),200,206,6,Cloud
-Device 1 (Cloud),200,203,3,Cloud
-Device 2 (Fog),200,201,1,Fog
-Device 3 (Cloud),200,204,4,Cloud
-Device 4 (Fog),200,203,3,Fog
-Device 0 (Fog),205,208,3,Fog
-Device 1 (Cloud),205,208,3,Cloud
-Device 2 (Cloud),205,210,5,Cloud
-Device 3 (Fog),205,207,2,Fog
-Device 4 (Fog),205,206,1,Fog
-Device 0 (Cloud),210,216,6,Cloud
-Device 1 (Fog),210,213,3,Fog
-Device 2 (Fog),210,213,3,Fog
-Device 3 (Cloud),210,216,6,Cloud
-Device 4 (Cloud),210,213,3,Cloud
-Device 0 (Cloud),215,218,3,Cloud
-Device 1 (Fog),215,217,2,Fog
-Device 2 (Fog),215,217,2,Fog
-Device 3 (Fog),215,217,2,Fog
-Device 4 (Cloud),215,221,6,Cloud
-Device 0 (Cloud),220,226,6,Cloud
-Device 1 (Cloud),220,225,5,Cloud
-Device 2 (Fog),220,221,1,Fog
-Device 3 (Fog),220,223,3,Fog
-Device 4 (Cloud),220,227,7,Cloud
-Device 0 (Cloud),225,232,7,Cloud
-Device 1 (Cloud),225,232,7,Cloud
-Device 2 (Fog),225,226,1,Fog
-Device 3 (Fog),225,226,1,Fog
-Device 4 (Cloud),225,228,3,Cloud
-Device 0 (Cloud),230,237,7,Cloud
-Device 1 (Cloud),230,236,6,Cloud
-Device 2 (Fog),230,233,3,Fog
-Device 3 (Fog),230,232,2,Fog
-Device 4 (Cloud),230,236,6,Cloud
-Device 0 (Cloud),235,239,4,Cloud
-Device 1 (Cloud),235,240,5,Cloud
-Device 2 (Cloud),235,240,5,Cloud
-Device 3 (Fog),235,237,2,Fog
-Device 4 (Cloud),235,242,7,Cloud
-Device 0 (Cloud),240,247,7,Cloud
-Device 1 (Fog),240,243,3,Fog
-Device 2 (Fog),240,243,3,Fog
-Device 3 (Cloud),240,245,5,Cloud
-Device 4 (Fog),240,243,3,Fog
-Device 0 (Cloud),245,251,6,Cloud
-Device 1 (Cloud),245,252,7,Cloud
-Device 2 (Fog),245,246,1,Fog
-Device 3 (Fog),245,247,2,Fog
-Device 4 (Cloud),245,248,3,Cloud
-Device 0 (Fog),250,253,3,Fog
-Device 1 (Fog),250,251,1,Fog
-Device 2 (Fog),250,253,3,Fog
-Device 3 (Fog),250,253,3,Fog
-Device 4 (Cloud),250,253,3,Cloud
+device,task_type,created_time,completion_time,latency (ms),location
+Device 0,Task 1,2024-10-26 22:18:40.570285,2024-10-26 22:18:42.623285,2053.0,Cloud
+Device 1,Task 1,2024-10-26 22:18:40.570285,2024-10-26 22:18:44.585285,4014.9999999999995,Cloud
+Device 2,Task 1,2024-10-26 22:18:40.570285,2024-10-26 22:18:43.503285,2933.0,Cloud
+Device 3,Task 1,2024-10-26 22:18:40.570285,2024-10-26 22:18:41.107285,537.0,Fog
+Device 4,Task 1,2024-10-26 22:18:40.570285,2024-10-26 22:18:42.962285,2392.0,Cloud
+Device 0,Task 2,2024-10-26 22:18:40.570308,2024-10-26 22:18:41.085308,515.0,Fog
+Device 1,Task 2,2024-10-26 22:18:40.570308,2024-10-26 22:18:41.960308,1390.0,Fog
+Device 2,Task 2,2024-10-26 22:18:40.570308,2024-10-26 22:18:42.367308,1797.0,Fog
+Device 3,Task 2,2024-10-26 22:18:40.570308,2024-10-26 22:18:42.118308,1548.0,Fog
+Device 4,Task 2,2024-10-26 22:18:40.570308,2024-10-26 22:18:44.391308,3821.0,Cloud
+Device 0,Task 3,2024-10-26 22:18:40.570314,2024-10-26 22:18:42.575314,2005.0,Cloud
+Device 1,Task 3,2024-10-26 22:18:40.570314,2024-10-26 22:18:45.347314,4777.0,Cloud
+Device 2,Task 3,2024-10-26 22:18:40.570314,2024-10-26 22:18:41.291314,721.0,Fog
+Device 3,Task 3,2024-10-26 22:18:40.570314,2024-10-26 22:18:42.559314,1989.0,Fog
+Device 4,Task 3,2024-10-26 22:18:40.570314,2024-10-26 22:18:41.092314,522.0,Fog
+Device 0,Task 4,2024-10-26 22:18:40.570319,2024-10-26 22:18:43.665319,3095.0,Cloud
+Device 1,Task 4,2024-10-26 22:18:40.570319,2024-10-26 22:18:41.150319,580.0,Fog
+Device 2,Task 4,2024-10-26 22:18:40.570319,2024-10-26 22:18:41.868319,1298.0,Fog
+Device 3,Task 4,2024-10-26 22:18:40.570319,2024-10-26 22:18:44.619319,4049.0000000000005,Cloud
+Device 4,Task 4,2024-10-26 22:18:40.570319,2024-10-26 22:18:41.670319,1100.0,Fog
+Device 0,Task 5,2024-10-26 22:18:40.570324,2024-10-26 22:18:41.132324,562.0,Fog
+Device 1,Task 5,2024-10-26 22:18:40.570324,2024-10-26 22:18:42.911324,2341.0,Cloud
+Device 2,Task 5,2024-10-26 22:18:40.570324,2024-10-26 22:18:42.362324,1792.0,Fog
+Device 3,Task 5,2024-10-26 22:18:40.570324,2024-10-26 22:18:45.216324,4646.0,Cloud
+Device 4,Task 5,2024-10-26 22:18:40.570324,2024-10-26 22:18:44.885324,4315.0,Cloud
+Device 0,Task 6,2024-10-26 22:18:40.570329,2024-10-26 22:18:41.438329,868.0,Fog
+Device 1,Task 6,2024-10-26 22:18:40.570329,2024-10-26 22:18:41.130329,560.0,Fog
+Device 2,Task 6,2024-10-26 22:18:40.570329,2024-10-26 22:18:44.327329,3757.0,Cloud
+Device 3,Task 6,2024-10-26 22:18:40.570329,2024-10-26 22:18:42.387329,1817.0,Fog
+Device 4,Task 6,2024-10-26 22:18:40.570329,2024-10-26 22:18:43.306329,2736.0,Cloud
+Device 0,Task 7,2024-10-26 22:18:40.570334,2024-10-26 22:18:41.127334,557.0,Fog
+Device 1,Task 7,2024-10-26 22:18:40.570334,2024-10-26 22:18:41.691334,1121.0,Fog
+Device 2,Task 7,2024-10-26 22:18:40.570334,2024-10-26 22:18:43.652334,3082.0,Cloud
+Device 3,Task 7,2024-10-26 22:18:40.570334,2024-10-26 22:18:42.348334,1778.0,Fog
+Device 4,Task 7,2024-10-26 22:18:40.570334,2024-10-26 22:18:42.391334,1821.0,Fog
+Device 0,Task 8,2024-10-26 22:18:40.570338,2024-10-26 22:18:41.749338,1179.0,Fog
+Device 1,Task 8,2024-10-26 22:18:40.570338,2024-10-26 22:18:41.641338,1071.0,Fog
+Device 2,Task 8,2024-10-26 22:18:40.570338,2024-10-26 22:18:45.251338,4681.0,Cloud
+Device 3,Task 8,2024-10-26 22:18:40.570338,2024-10-26 22:18:41.691338,1121.0,Fog
+Device 4,Task 8,2024-10-26 22:18:40.570338,2024-10-26 22:18:44.922338,4352.0,Cloud
+Device 0,Task 9,2024-10-26 22:18:40.570343,2024-10-26 22:18:44.184343,3614.0,Cloud
+Device 1,Task 9,2024-10-26 22:18:40.570343,2024-10-26 22:18:41.281343,711.0,Fog
+Device 2,Task 9,2024-10-26 22:18:40.570343,2024-10-26 22:18:41.181343,611.0,Fog
+Device 3,Task 9,2024-10-26 22:18:40.570343,2024-10-26 22:18:42.463343,1893.0,Fog
+Device 4,Task 9,2024-10-26 22:18:40.570343,2024-10-26 22:18:45.045343,4475.0,Cloud
+Device 0,Task 10,2024-10-26 22:18:40.570347,2024-10-26 22:18:43.034347,2464.0,Cloud
+Device 1,Task 10,2024-10-26 22:18:40.570347,2024-10-26 22:18:41.715347,1145.0,Fog
+Device 2,Task 10,2024-10-26 22:18:40.570347,2024-10-26 22:18:43.584347,3014.0,Cloud
+Device 3,Task 10,2024-10-26 22:18:40.570347,2024-10-26 22:18:43.566347,2996.0,Cloud
+Device 4,Task 10,2024-10-26 22:18:40.570347,2024-10-26 22:18:41.940347,1370.0,Fog
+Device 0,Task 11,2024-10-26 22:18:40.570352,2024-10-26 22:18:41.526352,956.0,Fog
+Device 1,Task 11,2024-10-26 22:18:40.570352,2024-10-26 22:18:43.645352,3075.0,Cloud
+Device 2,Task 11,2024-10-26 22:18:40.570352,2024-10-26 22:18:43.893352,3323.0,Cloud
+Device 3,Task 11,2024-10-26 22:18:40.570352,2024-10-26 22:18:41.473352,903.0,Fog
+Device 4,Task 11,2024-10-26 22:18:40.570352,2024-10-26 22:18:41.723352,1153.0,Fog
+Device 0,Task 12,2024-10-26 22:18:40.570357,2024-10-26 22:18:43.224357,2654.0,Cloud
+Device 1,Task 12,2024-10-26 22:18:40.570357,2024-10-26 22:18:44.124357,3554.0,Cloud
+Device 2,Task 12,2024-10-26 22:18:40.570357,2024-10-26 22:18:42.101357,1531.0,Fog
+Device 3,Task 12,2024-10-26 22:18:40.570357,2024-10-26 22:18:41.159357,589.0,Fog
+Device 4,Task 12,2024-10-26 22:18:40.570357,2024-10-26 22:18:41.951357,1381.0,Fog
+Device 0,Task 13,2024-10-26 22:18:40.570361,2024-10-26 22:18:42.104361,1534.0,Fog
+Device 1,Task 13,2024-10-26 22:18:40.570361,2024-10-26 22:18:42.205361,1635.0,Fog
+Device 2,Task 13,2024-10-26 22:18:40.570361,2024-10-26 22:18:41.197361,627.0,Fog
+Device 3,Task 13,2024-10-26 22:18:40.570361,2024-10-26 22:18:43.684361,3114.0,Cloud
+Device 4,Task 13,2024-10-26 22:18:40.570361,2024-10-26 22:18:41.744361,1174.0,Fog
+Device 0,Task 14,2024-10-26 22:18:40.570366,2024-10-26 22:18:42.762366,2192.0,Cloud
+Device 1,Task 14,2024-10-26 22:18:40.570366,2024-10-26 22:18:42.865366,2295.0,Cloud
+Device 2,Task 14,2024-10-26 22:18:40.570366,2024-10-26 22:18:43.721366,3151.0,Cloud
+Device 3,Task 14,2024-10-26 22:18:40.570366,2024-10-26 22:18:41.673366,1103.0,Fog
+Device 4,Task 14,2024-10-26 22:18:40.570366,2024-10-26 22:18:43.620366,3050.0,Cloud
+Device 0,Task 15,2024-10-26 22:18:40.570371,2024-10-26 22:18:42.102371,1532.0,Fog
+Device 1,Task 15,2024-10-26 22:18:40.570371,2024-10-26 22:18:45.001371,4431.0,Cloud
+Device 2,Task 15,2024-10-26 22:18:40.570371,2024-10-26 22:18:43.532371,2962.0,Cloud
+Device 3,Task 15,2024-10-26 22:18:40.570371,2024-10-26 22:18:42.300371,1730.0,Fog
+Device 4,Task 15,2024-10-26 22:18:40.570371,2024-10-26 22:18:41.855371,1285.0,Fog
+Device 0,Task 16,2024-10-26 22:18:40.570375,2024-10-26 22:18:41.141375,571.0,Fog
+Device 1,Task 16,2024-10-26 22:18:40.570375,2024-10-26 22:18:42.268375,1698.0,Fog
+Device 2,Task 16,2024-10-26 22:18:40.570375,2024-10-26 22:18:44.534375,3964.0,Cloud
+Device 3,Task 16,2024-10-26 22:18:40.570375,2024-10-26 22:18:41.895375,1325.0,Fog
+Device 4,Task 16,2024-10-26 22:18:40.570375,2024-10-26 22:18:42.341375,1771.0,Fog
+Device 0,Task 17,2024-10-26 22:18:40.570381,2024-10-26 22:18:44.222381,3652.0,Cloud
+Device 1,Task 17,2024-10-26 22:18:40.570381,2024-10-26 22:18:43.841381,3271.0,Cloud
+Device 2,Task 17,2024-10-26 22:18:40.570381,2024-10-26 22:18:43.227381,2657.0,Cloud
+Device 3,Task 17,2024-10-26 22:18:40.570381,2024-10-26 22:18:43.278381,2708.0,Cloud
+Device 4,Task 17,2024-10-26 22:18:40.570381,2024-10-26 22:18:41.193381,623.0,Fog
+Device 0,Task 18,2024-10-26 22:18:40.570386,2024-10-26 22:18:42.746386,2176.0,Cloud
+Device 1,Task 18,2024-10-26 22:18:40.570386,2024-10-26 22:18:43.622386,3052.0,Cloud
+Device 2,Task 18,2024-10-26 22:18:40.570386,2024-10-26 22:18:41.112386,542.0,Fog
+Device 3,Task 18,2024-10-26 22:18:40.570386,2024-10-26 22:18:45.560386,4990.0,Cloud
+Device 4,Task 18,2024-10-26 22:18:40.570386,2024-10-26 22:18:41.652386,1082.0,Fog
+Device 0,Task 19,2024-10-26 22:18:40.570391,2024-10-26 22:18:44.832391,4262.0,Cloud
+Device 1,Task 19,2024-10-26 22:18:40.570391,2024-10-26 22:18:42.828391,2258.0,Cloud
+Device 2,Task 19,2024-10-26 22:18:40.570391,2024-10-26 22:18:42.996391,2426.0,Cloud
+Device 3,Task 19,2024-10-26 22:18:40.570391,2024-10-26 22:18:42.607391,2037.0,Cloud
+Device 4,Task 19,2024-10-26 22:18:40.570391,2024-10-26 22:18:44.113391,3543.0,Cloud
+Device 0,Task 20,2024-10-26 22:18:40.570396,2024-10-26 22:18:42.322396,1752.0,Fog
+Device 1,Task 20,2024-10-26 22:18:40.570396,2024-10-26 22:18:45.274396,4704.0,Cloud
+Device 2,Task 20,2024-10-26 22:18:40.570396,2024-10-26 22:18:42.013396,1443.0,Fog
+Device 3,Task 20,2024-10-26 22:18:40.570396,2024-10-26 22:18:42.974396,2404.0,Cloud
+Device 4,Task 20,2024-10-26 22:18:40.570396,2024-10-26 22:18:42.429396,1859.0,Fog

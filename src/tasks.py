@@ -1,30 +1,30 @@
+from datetime import datetime, timedelta
 import random
 from latency import log_latency
 
-# Simulate task creation in the environment
+# Create a sample environment with multiple devices
 def create_environment():
-    devices = [f"Device {i}" for i in range(5)]  # 5 devices generating tasks
-    return devices
+    return [f"Device {i}" for i in range(5)]
 
+# Simulate IoT task processing with fog and cloud
 def simulate(devices):
-    current_time = 0
-    for i in range(50):  # Simulate 50 tasks
-        current_time += 5  # Each task is generated every 5 seconds
+    for i in range(20):  # Simulate 20 tasks
+        created_time = datetime.now()
         for device in devices:
-            # Randomly decide whether to process on Fog or Cloud
-            if random.random() > 0.5:  # 50% chance
-                process_on_fog(device, current_time)
+            task_type = f"Task {i + 1}"
+            if random.random() > 0.5:
+                process_on_fog(device, task_type, created_time)
             else:
-                process_on_cloud(device, current_time)
+                process_on_cloud(device, task_type, created_time)
 
-def process_on_fog(device, created_time):
-    processing_time = random.randint(1, 3)  # Fog processing takes between 1-3 seconds
+# Process task on fog and log latency
+def process_on_fog(device, task_type, created_time):
+    processing_time = timedelta(milliseconds=random.randint(500, 2000))  # Faster fog processing
     completion_time = created_time + processing_time
-    log_latency(f"{device} (Fog)", created_time, completion_time, "Fog")
-    print(f"{device} processed on Fog at time {created_time}, completed at {completion_time}")
+    log_latency(device, task_type, created_time, completion_time, "Fog")
 
-def process_on_cloud(device, created_time):
-    processing_time = random.randint(3, 7)  # Cloud processing takes between 3-7 seconds
+# Process task on cloud and log latency
+def process_on_cloud(device, task_type, created_time):
+    processing_time = timedelta(milliseconds=random.randint(2000, 5000))  # Slower cloud processing
     completion_time = created_time + processing_time
-    log_latency(f"{device} (Cloud)", created_time, completion_time, "Cloud")
-    print(f"{device} processed on Cloud at time {created_time}, completed at {completion_time}")
+    log_latency(device, task_type, created_time, completion_time, "Cloud")
