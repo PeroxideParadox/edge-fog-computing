@@ -1,15 +1,14 @@
 import pandas as pd
 import os
-from datetime import datetime
 
 latency_data = []
 
 # Log latency for tasks processed by fog and cloud
-def log_latency(device, task_type, created_time, completion_time, location):
+def log_latency(device, task_name, created_time, completion_time, location):
     latency = (completion_time - created_time).total_seconds() * 1000  # Latency in ms
     latency_data.append({
         'device': device,
-        'task_type': task_type,
+        'task_name': task_name,
         'created_time': created_time,
         'completion_time': completion_time,
         'latency (ms)': latency,
